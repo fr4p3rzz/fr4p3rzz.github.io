@@ -182,7 +182,7 @@ class Overworld extends Phaser.Scene
 
         this.npc_11 = new NPC(this.gameManager, this, 280, 498, "iron_golem",  3, 
             ["He studied computer science at UniVR from 2015 to 2019. After that, he enrolled at three-year Game Programming course at private school AIV", 
-            "AIV was a great experience, unfortunately mined by the coronavirus quarantine.".
+            "AIV was a great experience, unfortunately mined by the coronavirus quarantine.",
             "He graduated in time nonetheless, starting to work as a web-developer while finishing the 2nd academic year"], 18);
 
         this.gameManager.create();
