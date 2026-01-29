@@ -132,27 +132,28 @@ class Overworld extends Phaser.Scene
         
         this.npc_2 = new NPC(this.gameManager, this, 104, 302, "druid",  3, 
             ["Programming videogames sure is fun, but knowing how to program whatever is just beautiful. This is why Francesco studied game programming while working as a web developer for years!", 
-            "Favourite programming languages? C# and JavaScript for sure, but I know he secretly loves C++, even if it's a bit too difficult apparently...", 
+            "Favourite programming languages? C# for sure, but I know he secretly loves C++...and has a strange love/hate relationship with JavaScript", 
             "Actually, he started ``programming`` when he was 13, with RPG Maker XP. God I miss RPG Maker (do not tell anyone I said it please)"], 7);
         
         this.npc_3 = new NPC(this.gameManager, this, 125, 356, "pyromancer", 3, 
-            ["Uh? You want to know Francesco's working experience? let me see...He started working in 2019, a stage in a company that sold streaming services.", 
-            "After that, he worked for Concrete Investing for almost 3 years. What a ride, from junior developer to project manager and company's only IT", 
-            "He actually worked for a videogame company tho, and actually he's still freelancing with them, Games simply aren't out yet.",
-            "His favourite game engine is Unity by far. hoping that they don't ruin it anymore. Approaching Unreal with C++ would be nice, but it's not easy to start."], 12);
+            ["Uh? You want to know Francesco's working experience? let me see...He started working in 2020, a stage in a company that sold streaming services.", 
+            "After that, he worked for Concrete Investing for almost 3 years. What a ride, from junior developer to basically project manager and company's only IT", 
+            "Then, finally, his start with the Game Industry: from a small indie studio doing pixel-art and narrative-driven experiences to team-coordinator for the TinyBullStudios B2B branch"\n + "Today, hes a quite skilled 
+            Unity Programmer, with some years of experience in a lot of different projects" ,
+            "His favourite game engine is Unity by far. hoping that they don't ruin it anymore. Wish we could use Unreal a bit more tho..."], 12);
 
         this.npc_4 = new NPC(this.gameManager, this, 104, 128, "fire_elemental",  3, 
             ["What can I say about Francesco? he basically spent his whole life surrounded by monitors and tech stuff. He's a psycho for that kind of things.", 
-            "Computer hardware, smartphone modding, tech news, this is the kind of stuff he's crazy for", 
+            "Computer hardware, videogames, smartphone modding, tech news, this is the kind of stuff he's crazy for", 
             "I mean, technology is not his only passion, but probably there's someone around here that can tell you more"], 26);
 
         this.npc_5 = new NPC(this.gameManager, this, 420, 80, "wisp",  3, 
             ["Full metalhead: guitar player, singer, heavy music producer\n Apparently it wasn't a phase after all.", 
-            "Really: He loves heavy music as much as he's crazy for tech. He owns 4 guitars, 3 amps and even a medieval bagpipe!", 
-            "I heard he's having some issues on learning ho to play that, tho. But its only rumors."], 45);
+            "Really: He loves heavy music as much as he's crazy for tech. He own lots of guitars, amps...and even a medieval bagpipe!", 
+            "I heard he's having some issues on learning how to play that, tho. But its only rumors."], 45);
 
         this.npc_6 = new NPC(this.gameManager, this, 600, 400, "witch",  3, 
-            ["Francesco lived in different places, but always in Italy: Verona, Milan, Vicenza. Born in a small town near Vicenza, He misses a bit having not lived abroad so far.", 
+            ["Francesco lived in different places, but always in Italy: Verona, Milan, a bit of Genoa, Vicenza...Born in a small town near Vicenza, He misses a bit having not lived abroad so far.", 
             "He always thought the big city was the right way. After 4 years in Milan, he totally changed his mind. Now he's a happy countryside programmer. And that's way he STRONGLY prefers remote working", 
             "Really, like, you want the 100% more chance that he'll accept a job? just say 'full remote'. It's like a magic word"], 56);
 
@@ -164,7 +165,7 @@ class Overworld extends Phaser.Scene
         this.npc_8 = new NPC(this.gameManager, this, 422, 443, "water_elemental",  3, 
             ["Search Forod Lad on Spotify or BandCamp. it's his Folk metal project. Top tier music for real", 
             "You know, he's a huuuuge fan of medieval and fantasy stuff. He has like 5 swords at home (thery're not for fighting).",
-            "This is probably because his first approach on PC and videogames was Age of Empires II, when he was 6", 
+            "This is probably because his first approach on PC and videogames was Age of Empires II, when he was five or six", 
             "Favourite book? hitchhiker's guide to the galaxy"], 80);
 
         this.npc_9 = new NPC(this.gameManager, this, 423, 472, "necromancer",  3, 
@@ -287,7 +288,7 @@ class Menu extends Phaser.Scene {
 
     create() 
     {
-        const version = "1.0.0";
+        const version = "1.1";
         const playButton = this.add.image(480 / 2, 360 / 2 + 60, 'playButton').setInteractive();
         playButton.setScale(0.1);
 
