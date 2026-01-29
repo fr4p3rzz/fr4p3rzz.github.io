@@ -138,8 +138,8 @@ class Overworld extends Phaser.Scene
         this.npc_3 = new NPC(this.gameManager, this, 125, 356, "pyromancer", 3, [
         "Uh? You want to know Francesco's working experience? let me see...He started working in 2020, a stage in a company that sold streaming services.",
         "After that, he worked for Concrete Investing for almost 3 years. What a ride, from junior developer to basically project manager and company's only IT",
-        `Then, finally, his start with the Game Industry: from a small indie studio doing pixel-art and narrative-driven experiences to team-coordinator for the TinyBullStudios B2B branch
-        Today, he's a quite skilled Unity Programmer, with some years of experience in a lot of different projects`,
+        "Then, finally, his start with the Game Industry: from a small indie studio doing pixel-art and narrative-driven experiences to team-coordinator for the TinyBullStudios B2B branch
+        Today, he is a quite skilled Unity Programmer, with some years of experience in a lot of different projects",
         "His favourite game engine is Unity by far. hoping that they don't ruin it anymore. Wish we could use Unreal a bit more tho..."
         ], 12);
 
