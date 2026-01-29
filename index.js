@@ -288,7 +288,7 @@ class Menu extends Phaser.Scene {
 
     create() 
     {
-        const version = "1.1";
+        const version = "1.1.1";
         const playButton = this.add.image(480 / 2, 360 / 2 + 60, 'playButton').setInteractive();
         playButton.setScale(0.1);
 
@@ -357,7 +357,7 @@ class Menu extends Phaser.Scene {
 
         this.welcomeText = new ScrollableTextBox(this, 15, 15, 450, 330, 
             `Francesco Peruzzi - Software Developer - ${dd}/${mm}/${yyyy}\n
-            version: ${version}\n\n\n
+            version: ${version} -- Unity-based 2.0 Coming Soon!\n\n\n
             welcome! This is an interactive curriculum created both to give you moments of leisure during your hard work and to introduce me better as a developer.\n\n 
             Don't worry, if you want the normal pdf curriculum you will find it downloadable inside!\n\n Have fun!`, 11, false);
     }
