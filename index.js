@@ -181,9 +181,9 @@ class Overworld extends Phaser.Scene
             "Likes to cook too. A decent chef, I would say"], 55);
 
         this.npc_11 = new NPC(this.gameManager, this, 280, 498, "iron_golem",  3, 
-            ["He studied computer science at UniVR. It was not a nice experience sadly, in fact he stopped his studies in Verona in order to move in Milan, studying game programming at AIV.", 
-            "AIV was a great experience, unfortunately mined by the coronavirus quarantine. He graduated in time nonetheless, and after that he enrolled for Computer Engineering at university again.",
-            "He's currently studying for this bachelor degree. Once finished, He'll actually be the mythical recent-graduate with experience!"], 18);
+            ["He studied computer science at UniVR from 2015 to 2019. After that, he enrolled at three-year Game Programming course at private school AIV", 
+            "AIV was a great experience, unfortunately mined by the coronavirus quarantine.".
+            "He graduated in time nonetheless, starting to work as a web-developer while finishing the 2nd academic year"], 18);
 
         this.gameManager.create();
 
