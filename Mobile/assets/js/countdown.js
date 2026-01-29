@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-let countDownDate = new Date("Nov 30, 2025 00:00:00").getTime();
+let countDownDate = new Date("Dec 31, 2077 00:00:00").getTime();
 
 // Update the count down every 1 second
 let x = setInterval(function() {
